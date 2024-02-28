@@ -1,0 +1,130 @@
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    
+    h1, h2, h3, h4, h5, h6, p, blockquote, form, label, ul, ol, dl, fieldset, address {
+        margin-bottom: 1em;
+    }
+
+body{
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+   
+}
+div{
+    display: inline-block;
+}
+.container{
+    position: relative;
+    width: 50vw;
+    height: 35vh;
+    display:inline-flex;
+    margin: 40px auto;
+    display: flex;
+
+}
+#box1{
+    position: absolute;
+    left: 1%;
+    background-color: white;
+    width: 49%;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.297);
+    text-align: center;
+    display: inline-block;
+     height: 50vh;
+}
+#box2{
+    position: absolute;
+    left: 50%;
+    background-color: rgb( 89,  202, 210);
+    width: 49%;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.297);
+    border-top-right-radius: 2%;
+    border-bottom-right-radius: 2%;
+    text-align: center;
+    display: inline-block;
+    height: 50vh;
+}
+.fab {
+    border: 2px solid rgb( 89, 202, 210);
+    border-radius: 50%;
+    width: 10px;
+    padding: 5px;
+    text-align: center;
+    border: 0 auto;
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+td{
+    padding: 10px;
+    
+
+}
+#hint{
+    font-size: 10px;
+}
+input[type=submit]{
+    background: rgb( 89,  202, 210);
+    border: none;
+    border-radius: 20px;
+    padding: 5px;
+    width: 100px;
+    color: white;
+}
+input[type=email]{
+    background: rgba(128, 128, 128, 0.17);
+    border: none;
+    padding: 2px;
+    padding-left: 8px;
+    width: 80%;
+    margin-bottom: 5px;
+    border-radius: 2px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+}
+input[type=password]{
+    background: rgba(128, 128, 128, 0.17);
+    border: none;
+    padding: 2px;
+    padding-left: 8px;
+    width: 80%;
+    margin-bottom: 5px;
+    border-radius: 2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+}
+input[type=submit]:hover{
+    cursor: pointer;
+}
+
+h4{
+    color: white;
+    padding: 35% 0 0 0;
+    font-size: 1.5rem;
+}
+#right{
+    
+    color: white;
+    font-weight: 100;
+   
+}
+#right_but{
+    border: 1px solid white;
+    width: 80px;
+    
+    color: white;
+}
+.col_back{
+    background: grey;
+}
+p{
+    font-weight: 600;
+    margin-top: 20px;
+    font-size: 1rem;
+}
+#col-head{
+    color: aqua;
+    padding: 20% 0 0 0;
+}
